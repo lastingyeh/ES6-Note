@@ -7,9 +7,9 @@
     "babel",
     "webpack"
   ],
-  "homepage": "https://www.gitbook.com/book/eyesofkids/javascript-start-from-es6/",
+  "homepage": "https://github.com/lastingyeh/ES6-Note",
   "repository": "eyesofkids/webpack-es6-startkit",
-  "author": "Eddy Chang <eddy@joomla.com.tw> (http://eddychang.me)",
+  "author": "lastingyeh",
   "description": "A startkit for client-side development in ES6.",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --progress --inline --colors --open",
