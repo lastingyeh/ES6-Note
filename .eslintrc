@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "rules": {
+    "semi": ["error", "never"],
+    "no-console":["error",{"allow":["log","warn","error"]}],
+    "no-plusplus":["error",{ "allowForLoopAfterthoughts": true }],
+    "no-underscore-dangle": ["error", { "allowAfterThis": true}]
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": false,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": [
+    "import"
+  ]
+}
